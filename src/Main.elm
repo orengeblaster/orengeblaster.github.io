@@ -1,5 +1,9 @@
 module Main exposing (main)
 
-import Html exposing (text)
+import Html exposing (..)
+import Html.Attributes exposing (..)
 
-main = text "haiwo :3"
+view model = 
+    h1 [] [text "haiwo :3"]
+main = 
+    view "Orenge's Page"
