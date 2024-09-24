@@ -16,7 +16,7 @@ main =
 
 view : a -> Html msg
 view _ =
-    div [ class "main" ]
+    div [ class "main content-center"]
         [ h1 [] [ text "Haiwo, this page is under construction!!" ]
         , p []
             [ text "Orenge is in the process of learning elm rn. idk when they will git gud tho :3c" ]
