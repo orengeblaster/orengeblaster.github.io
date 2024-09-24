@@ -1,11 +1,17 @@
 <!DOCTYPE HTML>
 <html>
+
 <head>
-  <meta charset="UTF-8">
-  <title>Orenge's Page</title>
-  <script src="main.js"></script>
+    <meta charset="UTF-8">
+    <title>Orenge's Page</title>
 </head>
+
 <body>
-  <script>var app = Elm.Main.init();</script>
+    <div id="elm-app"></div>
+    <script src="main.js"></script>
+    <script>
+        var app = Elm.Main.init({node: document.getElementById("elm-app")});
+    </script>
 </body>
+
 </html>

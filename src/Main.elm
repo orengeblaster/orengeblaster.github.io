@@ -1,10 +1,21 @@
 module Main exposing (main)
 
+import Browser
 import Html exposing (..)
 import Html.Attributes exposing (..)
 
-main : Html msg
+
+main : Program () {} msg
 main =
+    Browser.sandbox
+        { init = {}
+        , update = \_ _ -> {}
+        , view = view
+        }
+
+
+view : a -> Html msg
+view _ =
     div [ class "main" ]
         [ h1 [] [ text "Haiwo, this page is under construction!!" ]
         , p []
