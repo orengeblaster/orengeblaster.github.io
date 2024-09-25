@@ -17,7 +17,7 @@ main =
 view : a -> Html msg
 view _ =
     div [ class "main grid h-screen place-items-center" ]
-        [ h1 [] [ text "Haiwo, this page is under construction!! " , i [ class "fa-solid fa-laptop-code" ] []]
+        [ h1 [] [ i [ class "fa-solid fa-screwdriver-wrench" ] [], text "Haiwo, this page is under construction!! ", i [ class "fa-solid fa-screwdriver-wrench" ] [] ]
         , p []
             [ text "Orenge is in the process of learning elm rn. idk when they will git gud tho :3c" ]
         ]
