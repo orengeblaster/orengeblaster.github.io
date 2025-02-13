@@ -47,10 +47,10 @@ jobs:
       - run: elm make src/Main.elm --output=main.js --optimize
 
       - name: Setup Pages
-        uses: actions/configure-pages@v4
+        uses: actions/configure-pages@v5
 
       - name: Upload artifact
-        uses: actions/upload-pages-artifact@v1
+        uses: actions/upload-pages-artifact@v3
         with:
           path: '.'
           
